@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(194, 194, 194);
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 5px solid gray;
+}
+
+
+
+#relogio{
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    color: rgb(0, 182, 0);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.5em;
+    width: 200px;
+    justify-content: center;
+}
+
+.alarme{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container_botoes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 400px;
+}
+
+.botao{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(83, 83, 83);  
+    color: white;
+}
+
+.alarme_aviso{
+    background-color: red !important;
+}
+
+audio{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
